@@ -31,7 +31,7 @@ Edit
 
 ## ▶️ Getting Started
 
-### 1. Clone and Install
+1. Clone and Install
 
 ```bash
 git clone <repo-url>
