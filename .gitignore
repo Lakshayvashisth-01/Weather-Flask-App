@@ -1,0 +1,60 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*$py.class
+
+# === Virtual Environments ===
+venv/
+.venv/
+ENV/
+env/
+.Python
+
+# === Environment & Secrets ===
+.env
+*.env
+*.key
+*.pem
+
+# === Logs & Debugging ===
+*.log
+*.pid
+*.sqlite3
+*.db
+
+# === IDE / Editor Config ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === macOS ===
+.DS_Store
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Testing ===
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# === Docker ===
+*.pid
+
+# === Build Files ===
+build/
+dist/
+*.egg-info/
+
+# === Node (if using JS frontend) ===
+node_modules/
