@@ -31,9 +31,8 @@ Edit
 
 ## ▶️ Getting Started
 
-1. Clone and Install
-
 ```bash
+1. Clone and Install
 git clone <repo-url>
 cd <project-folder>
 pip install -r requirements.txt
