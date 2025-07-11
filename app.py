@@ -3,7 +3,10 @@ import requests
 import os
 
 app = Flask(__name__)
-API_KEY = os.getenv("OWM_KEY", "cc090daa68f1ad869e62e987bfba5829")
+# Load API key securely from environment variable
+API_KEY = os.getenv("OWM_KEY")
+if not API_KEY:
+    raise RuntimeError("Please set the OWM_KEY environment variable")
 
 @app.route("/")
 def index():
